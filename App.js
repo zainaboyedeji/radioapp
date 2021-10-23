@@ -13,6 +13,7 @@ export default function App() {
         <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Recents" component={RecentView} />
         <Drawer.Screen name="PodCasts" component={RecentView} />
+        <Drawer.Screen name="Favorite" component={HomeScreen} />
         <Drawer.Screen name="Top Stations" component={RecentView} />
         <Drawer.Screen name="Discover" component={RecentView} />
         <Drawer.Screen name="Recommended" component={RecentView} />
